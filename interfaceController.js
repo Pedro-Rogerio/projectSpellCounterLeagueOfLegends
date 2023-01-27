@@ -12,7 +12,7 @@ var select10 = document.getElementById('f2Sup');
 select1.addEventListener('change', function(){
     if((select1.value)==""){
         atualizarFoto("assets/vazio.png","foto1Top");
-        alterarDisplay("cronometro1Top", 00, 00);
+        alterarDisplay("cronometro1Top", "00", "00");
     }
     if((select1.value)=="1"){
         atualizarFoto("assets/flash.png","foto1Top");

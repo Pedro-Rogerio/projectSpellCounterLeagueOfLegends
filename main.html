@@ -4,13 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
     <title>Spell Counter</title>
 </head>
 <body>
     <div class="container">
         <div class="top">
-            <form>
+            <div class="top1">
                 <select id="f1Top">
+                        <option value=""></option>
+                        <option value="1">Flash</option>
+                        <option value="2">Purificar</option>
+                        <option value="3">Exaustão</option>
+                        <option value="4">Barreira</option>
+                        <option value="5">Fantasma</option>
+                        <option value="6">Curar</option>
+                        <option value="7">Incendiar</option>
+                        <option value="8">Teleportar</option>
+                        <option value="9">Smite</option>
+                </select>
+
+                
+                <img id="foto1Top" src="assets/vazio.png"></img>
+                <div id="cronometro1Top">00:00</div>
+                <button id="ini1Top">Iniciar</button>
+                <button id="parar1Top">Parar</button>                
+            </div>
+            
+
+            <h1>TOP</h1>
+
+            <div class="top2">
+                <select id='f2Top'>
                     <option value=""></option>
                     <option value="1">Flash</option>
                     <option value="2">Purificar</option>
@@ -22,96 +47,86 @@
                     <option value="8">Teleportar</option>
                     <option value="9">Smite</option>
                 </select>
-            </form>
+    
+                <img id='foto2Top' src="assets/vazio.png"></img>
+                <div id="cronometro2Top">00:00</div>
+                <button id="ini2Top">Iniciar</button>
+                <button id="parar2Top">Parar</button>
+            </div>
             
-            <img id="foto1Top" src="assets/vazio.png"></img>
-            <div id="cronometro1Top">00:00</div>
-            <button id="ini1Top">Iniciar</button>
-            <button id="parar1Top">Parar</button>
-
-            <h1>TOP</h1>
-
-            <select id='f2Top'>
-                <option value=""></option>
-                <option value="1">Flash</option>
-                <option value="2">Purificar</option>
-                <option value="3">Exaustão</option>
-                <option value="4">Barreira</option>
-                <option value="5">Fantasma</option>
-                <option value="6">Curar</option>
-                <option value="7">Incendiar</option>
-                <option value="8">Teleportar</option>
-                <option value="9">Smite</option>
-            </select>
-
-            <img id='foto2Top' src="assets/vazio.png"></img>
-            <div id="cronometro2Top">00:00</div>
-            <button id="ini2Top">Iniciar</button>
-            <button id="parar2Top">Parar</button>
 
         </div>
 
         <div class="jg">
-
-            <select id='f1Jg'>
-                <option value=""></option>
-                <option value="1">Flash</option>
-                <option value="2">Purificar</option>
-                <option value="3">Exaustão</option>
-                <option value="4">Barreira</option>
-                <option value="5">Fantasma</option>
-                <option value="6">Curar</option>
-                <option value="7">Incendiar</option>
-                <option value="8">Teleportar</option>
-                <option value="9">Smite</option>
-            </select>
-            <img id="foto1Jg" src="assets/vazio.png"></img>
-            <div id="cronometro1Jg">00:00</div>
-            <button id="ini1Jg">Iniciar</button>
-            <button id="parar1Jg">Parar</button>
+            <div class="jg1">
+                <select id='f1Jg'>
+                    <option value=""></option>
+                    <option value="1">Flash</option>
+                    <option value="2">Purificar</option>
+                    <option value="3">Exaustão</option>
+                    <option value="4">Barreira</option>
+                    <option value="5">Fantasma</option>
+                    <option value="6">Curar</option>
+                    <option value="7">Incendiar</option>
+                    <option value="8">Teleportar</option>
+                    <option value="9">Smite</option>
+                </select>
+                <img id="foto1Jg" src="assets/vazio.png"></img>
+                <div id="cronometro1Jg">00:00</div>
+                <button id="ini1Jg">Iniciar</button>
+                <button id="parar1Jg">Parar</button>
+            </div>
+            
 
             <h1>JG</h1>
 
-            <select id="f2Jg">
-                <option value=""></option>
-                <option value="1">Flash</option>
-                <option value="2">Purificar</option>
-                <option value="3">Exaustão</option>
-                <option value="4">Barreira</option>
-                <option value="5">Fantasma</option>
-                <option value="6">Curar</option>
-                <option value="7">Incendiar</option>
-                <option value="8">Teleportar</option>
-                <option value="9">Smite</option>
-            </select>
-            <img id="foto2Jg" src="assets/vazio.png"></img>
-            <div id="cronometro2Jg">00:00</div>
-            <button id="ini2Jg">Iniciar</button>
-            <button id="parar1Jg">Parar</button>
+            <div class="jg2">
+                <select id="f2Jg">
+                    <option value=""></option>
+                    <option value="1">Flash</option>
+                    <option value="2">Purificar</option>
+                    <option value="3">Exaustão</option>
+                    <option value="4">Barreira</option>
+                    <option value="5">Fantasma</option>
+                    <option value="6">Curar</option>
+                    <option value="7">Incendiar</option>
+                    <option value="8">Teleportar</option>
+                    <option value="9">Smite</option>
+                </select>
+                <img id="foto2Jg" src="assets/vazio.png"></img>
+                <div id="cronometro2Jg">00:00</div>
+                <button id="ini2Jg">Iniciar</button>
+                <button id="parar1Jg">Parar</button>
+            </div>
+            
 
         </div>
 
         <div class="mid">
+            <div class="mid1">
+                <select id="f1Mid">
+                    <option value=""></option>
+                    <option value="1">Flash</option>
+                    <option value="2">Purificar</option>
+                    <option value="3">Exaustão</option>
+                    <option value="4">Barreira</option>
+                    <option value="5">Fantasma</option>
+                    <option value="6">Curar</option>
+                    <option value="7">Incendiar</option>
+                    <option value="8">Teleportar</option>
+                    <option value="9">Smite</option>
+                </select>
+                <img id="foto1Mid" src="assets/vazio.png"></img>
+                <div id="cronometro1Mid">00:00</div>
+                <button id="ini1Mid">Iniciar</button>
+                <button id="parar1Mid">Parar</button>
 
-            <select id="f1Mid">
-                <option value=""></option>
-                <option value="1">Flash</option>
-                <option value="2">Purificar</option>
-                <option value="3">Exaustão</option>
-                <option value="4">Barreira</option>
-                <option value="5">Fantasma</option>
-                <option value="6">Curar</option>
-                <option value="7">Incendiar</option>
-                <option value="8">Teleportar</option>
-                <option value="9">Smite</option>
-            </select>
-            <img id="foto1Mid" src="assets/vazio.png"></img>
-            <div id="cronometro1Mid">00:00</div>
-            <button id="ini1Mid">Iniciar</button>
-            <button id="parar1Mid">Parar</button>
+            </div>
+            
 
             <h1>MID</h1>
-
+            <div class="mid2">
+                
             <select id="f2Mid">
                 <option value=""></option>
                 <option value="1">Flash</option>
@@ -129,87 +144,105 @@
             <button id="ini2Mid">Iniciar</button>
             <button id="parar2Mid">Parar</button>
 
+
+            </div>
+
         </div>
 
         <div class="adc">
+            <div class="adc1">
+                <select id="f1Adc">
+                    <option value=""></option>
+                    <option value="1">Flash</option>
+                    <option value="2">Purificar</option>
+                    <option value="3">Exaustão</option>
+                    <option value="4">Barreira</option>
+                    <option value="5">Fantasma</option>
+                    <option value="6">Curar</option>
+                    <option value="7">Incendiar</option>
+                    <option value="8">Teleportar</option>
+                    <option value="9">Smite</option>
+                </select>
+                <img id="foto1Adc" src="assets/vazio.png"></img>
+                <div id="cronometro1Adc">00:00</div>
+                <button id="ini1Adc">Iniciar</button>
+                <button id="parar1Adc">Parar</button>
+    
 
-            <select id="f1Adc">
-                <option value=""></option>
-                <option value="1">Flash</option>
-                <option value="2">Purificar</option>
-                <option value="3">Exaustão</option>
-                <option value="4">Barreira</option>
-                <option value="5">Fantasma</option>
-                <option value="6">Curar</option>
-                <option value="7">Incendiar</option>
-                <option value="8">Teleportar</option>
-                <option value="9">Smite</option>
-            </select>
-            <img id="foto1Adc" src="assets/vazio.png"></img>
-            <div id="cronometro1Adc">00:00</div>
-            <button id="ini1Adc">Iniciar</button>
-            <button id="parar1Adc">Parar</button>
+            </div>
 
+           
             <h1>ADC</h1>
 
-            <select id='f2Adc'>
-                <option value=""></option>
-                <option value="1">Flash</option>
-                <option value="2">Purificar</option>
-                <option value="3">Exaustão</option>
-                <option value="4">Barreira</option>
-                <option value="5">Fantasma</option>
-                <option value="6">Curar</option>
-                <option value="7">Incendiar</option>
-                <option value="8">Teleportar</option>
-                <option value="9">Smite</option>
-            </select>
-            <img id="foto2Adc" src="assets/vazio.png"></img>
-            <div id="cronometro2Adc">00:00</div>
-            <button id="ini2Adc">Iniciar</button>
-            <button id="parar2Adc">Parar</button>
+            <div class="adc2">
+                <select id='f2Adc'>
+                    <option value=""></option>
+                    <option value="1">Flash</option>
+                    <option value="2">Purificar</option>
+                    <option value="3">Exaustão</option>
+                    <option value="4">Barreira</option>
+                    <option value="5">Fantasma</option>
+                    <option value="6">Curar</option>
+                    <option value="7">Incendiar</option>
+                    <option value="8">Teleportar</option>
+                    <option value="9">Smite</option>
+                </select>
+                <img id="foto2Adc" src="assets/vazio.png"></img>
+                <div id="cronometro2Adc">00:00</div>
+                <button id="ini2Adc">Iniciar</button>
+                <button id="parar2Adc">Parar</button>
+
+            </div>
+            
 
         </div>
 
         <div class="sup">
 
-            <select id="f1Sup">
-                <option value=""></option>
-                <option value="1">Flash</option>
-                <option value="2">Purificar</option>
-                <option value="3">Exaustão</option>
-                <option value="4">Barreira</option>
-                <option value="5">Fantasma</option>
-                <option value="6">Curar</option>
-                <option value="7">Incendiar</option>
-                <option value="8">Teleportar</option>
-                <option value="9">Smite</option>
-            </select>
-            <img id="foto1Sup" src="assets/vazio.png"></img>
-            <div id="cronometro1Sup">00:00</div>
-            <button id="ini1Sup">Iniciar</button>
-            <button id="parar1Sup">Parar</button>
+                <div class="sup1">
+                    <select id="f1Sup">
+                        <option value=""></option>
+                        <option value="1">Flash</option>
+                        <option value="2">Purificar</option>
+                        <option value="3">Exaustão</option>
+                        <option value="4">Barreira</option>
+                        <option value="5">Fantasma</option>
+                        <option value="6">Curar</option>
+                        <option value="7">Incendiar</option>
+                        <option value="8">Teleportar</option>
+                        <option value="9">Smite</option>
+                    </select>
+                    <img id="foto1Sup" src="assets/vazio.png"></img>
+                    <div id="cronometro1Sup">00:00</div>
+                    <button id="ini1Sup">Iniciar</button>
+                    <button id="parar1Sup">Parar</button>
+        
 
+                </div>
+           
             <h1>SUP</h1>
+                <div class="sup2">
+                    <select id="f2Sup">
+                        <option value=""></option>
+                        <option value="1">Flash</option>
+                        <option value="2">Purificar</option>
+                        <option value="3">Exaustão</option>
+                        <option value="4">Barreira</option>
+                        <option value="5">Fantasma</option>
+                        <option value="6">Curar</option>
+                        <option value="7">Incendiar</option>
+                        <option value="8">Teleportar</option>
+                        <option value="9">Smite</option>
+                    </select>
+        
+                    <img id="foto2Sup" src="assets/vazio.png"></img>
+                    <div id="cronometro2Sup">00:00</div>
+                    <button id="ini2Sup">Iniciar</button>
+                    <button id="parar2Sup">Parar</button>
+        
 
-            <select id="f2Sup">
-                <option value=""></option>
-                <option value="1">Flash</option>
-                <option value="2">Purificar</option>
-                <option value="3">Exaustão</option>
-                <option value="4">Barreira</option>
-                <option value="5">Fantasma</option>
-                <option value="6">Curar</option>
-                <option value="7">Incendiar</option>
-                <option value="8">Teleportar</option>
-                <option value="9">Smite</option>
-            </select>
-
-            <img id="foto2Sup" src="assets/vazio.png"></img>
-            <div id="cronometro2Sup">00:00</div>
-            <button id="ini2Sup">Iniciar</button>
-            <button id="parar2Sup">Parar</button>
-
+                </div>
+           
         </div>
 
 
